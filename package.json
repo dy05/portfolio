@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Dyos portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dy05/portfolio.git"
+  },
+  "keywords": [
+    "dyos",
+    "portofolio",
+    "youta",
+    "obby",
+    "sidane"
+  ],
+  "author": "OBBY Sidane YOUTA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dy05/portfolio/issues"
+  },
+  "homepage": "https://github.com/dy05/portfolio#readme"
+}
