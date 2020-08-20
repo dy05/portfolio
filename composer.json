@@ -1,0 +1,13 @@
+{
+    "name": "dyos/portfolio",
+    "description": "Dyos portfolio repo",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "YOUTA OBBY Sidane",
+            "email": "dyosby237@gmail.com"
+        }
+    ],
+    "require": {}
+}
