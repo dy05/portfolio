@@ -17,8 +17,8 @@
         section {
             background-color: rgba(255, 255, 255, 0.4);
             width: max-content;
-            max-width: 90vw;
-            max-height: 29rem;
+            max-width: 96vw;
+            max-height: 32rem;
             position: absolute;
             text-align: center;
             margin: auto;
@@ -58,8 +58,8 @@
         }
         div {
             width: max-content;
-            max-width: 90vw;
-            height: 2rem;
+            max-width: 96vw;
+            height: 2.5rem;
             margin: auto;
             display: block;
         }
@@ -67,9 +67,9 @@
             color: #fff;
             font-family: monospace;
             overflow: hidden;
-            border-right: .15em solid #fff;
+            border-right: .16em solid #fff;
             white-space: nowrap;
-            letter-spacing: .15em;
+            letter-spacing: .16em;
             animation: typing 3.5s steps(15, end), cursor .5s step-end infinite;
         }
         @keyframes typing {
@@ -85,12 +85,18 @@
             src: url('fonts/FontsFree-Net-SFProText-Regular.ttf');
         }
         
-        @media (max-width: 500px) {
+        @media (max-width: 678px) {
             body {
                 background-color: #fff;
             }
+
             section {
                 background-color: tomato;
+            }
+
+            h4 {
+                letter-spacing: .8em;
+                font-size: 1rem;
             }
         }
     </style>
