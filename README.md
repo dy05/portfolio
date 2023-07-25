@@ -3,11 +3,12 @@
 ## Introduction
 
 My github repo for my portfolio
-Available on link [https://dyos-app.herokuapp.com/](https://dyos-app.herokuapp.com/)
+
+Available on link [https://dy05.github.io/portfolio/](https://dy05.github.io/portfolio/)
 
 ## Credits  
   
-- [OBBY Sidane YOUTA](https://twitter.com/dos_plague)
+- [Obby Sidane YOUTA](https://twitter.com/ObbySidaneY)
   
 ## License 
 
