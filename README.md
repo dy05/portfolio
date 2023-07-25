@@ -1,8 +1,10 @@
-<p align="center"><img src="https://dyos-app.herokuapp.com/img/screen.png"/></p>
+# Portfolio
+
+<p><img src="./img/screen.png" alt="screen" /></p>
 
 ## Introduction
 
-My github repo for my portfolio
+My GitHub repository for my portfolio.
 
 Available on link [https://dy05.github.io/portfolio/](https://dy05.github.io/portfolio/)
 

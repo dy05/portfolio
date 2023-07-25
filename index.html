@@ -16,13 +16,11 @@
             overflow-x: hidden;
         }
         section {
-            background-color: rgba(255, 255, 255, 0.4);
             width: max-content;
             max-width: 80vw;
-            max-height: 32rem;
             position: absolute;
-            text-align: center;
-            margin: auto;
+            text-align: justify;
+            margin: 2rem auto;
             left: 0;
             right: 0;
             bottom: 0;
@@ -60,20 +58,29 @@
         div {
             width: max-content;
             max-width: 80vw;
-            height: 2.5rem;
-            margin: auto;
             display: block;
         }
         a {
             color: #fff;
             white-space: nowrap;
             letter-spacing: .2em;
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-weight: 700;
             margin-top: 2rem;
-            margin-bottom: 4rem;
             display: block;
             border-color: tomato;
+        }
+        a.btn {
+            text-decoration: none;
+            border-radius: 10px;
+            padding: 0.5rem 1rem !important;
+            border: 0.125rem #fff dashed;
+            display: inline-block;
+        }
+        a.btn:hover {
+            border-color: transparent;
+            background-color: #fff;
+            color: tomato;            
         }
         h4 {
             color: #fff;
@@ -102,7 +109,10 @@
                 background-color: #fff;
             }
             section {
+                text-align: initial;
                 background-color: tomato;
+                position: initial;
+                padding: 1rem;
             }
             a {
                 font-size: 1.25rem;
@@ -110,7 +120,14 @@
             }
             h4 {
                 letter-spacing: .8em;
+                font-size: 0.75rem;
+            }
+            a.btn {
                 font-size: 1rem;
+                padding: 0.125rem 0.5rem !important;
+            }
+            div {
+                max-width: 90vw !important;
             }
         }
     </style>
@@ -127,8 +144,8 @@
         <br/>
         I come from Cameroon and I live in the city of Nancy, a beautiful City, located in the Great East of France.
         <br>
-        <a href="Youta%20Obby%20Sidane%20-%20CV.pdf">
-            Download CV here !
+        <a class="btn" href="Youta%20Obby%20Sidane%20-%20CV.pdf" target="_blank">
+            Download Resume
         </a>
     </p>
     <div>
